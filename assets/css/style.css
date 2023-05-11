@@ -10722,17 +10722,5 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.faixa {
-  background-color: rgba(230, 107, 70, 0.4);
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
-  width: 100%;
-}
-.faixa h2 {
-  margin-top: 5px;
-  color: #1f1c1c;
-  font-size: 1.5rem;
-  display: inline-block;
-}
 
 /*# sourceMappingURL=style.css.map */
