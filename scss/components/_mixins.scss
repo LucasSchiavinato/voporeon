@@ -1,2 +1,6 @@
 //Imports
 @use '../custom' as *;
+
+@mixin mix-faixa{
+    background-color: rgba($voporeon-orange, 0.);
+}
