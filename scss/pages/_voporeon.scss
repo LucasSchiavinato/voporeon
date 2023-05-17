@@ -1,0 +1,113 @@
+//Imports
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+//All
+.voporeon-all{
+    //SVG
+    .vopo-svg1{
+        @include vopo-faixa;
+    }
+    .vopo-svg2{
+        @include vopo-faixa;
+    }
+    .vopo-svg3{
+        @include vopo-faixa;
+    }
+
+}
+
+//header
+.vopo-faixa{
+    @include vopo-faixa;
+    //border
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    //dimensions
+    margin-bottom: 4rem;
+}
+
+//Main
+.voporeon-main{
+    @include vopo-faixa;
+    padding: 1rem;
+
+    //left
+    .call-collum{
+        transform: translate(0%, 5%);
+
+        //btn
+        .btn{
+            transform: translate(100%, 0%);
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+    }
+    //right
+    .img-collum{
+        transform: translate(25%, 0%);
+    }
+}
+
+//Health
+.voporeon-mental{
+    @include vopo-blue;
+    .vopo-title{
+        transform: translate(0%, -70%);
+    }
+    .card-group{
+        padding: 1rem;
+    }
+    //CARD
+    .vopo-card{
+        @include vopo-blue;
+        padding: 1rem;
+        i{
+            padding-top: 1rem;
+            font-size: 2rem;
+        }
+    }
+}
+
+.voporeon-whyus{
+    @include vopo-faixa;
+    .why{
+        margin-bottom: -5rem;
+    }
+
+    //title
+    .vopo-title-why{
+        transform: translate(0%, -95%);
+    }
+
+    .vopo-box{
+        transform: translate(0%, -10%);
+        .box-call{
+            height: 300px;
+            width: 460px;
+            background-color: $white;
+            border-radius: 50px;
+            padding: 2rem;
+            transform: translate(20%, -70%);
+        }
+    }
+}
+
+.voporeon-faq{
+    @include vopo-blue;
+}
+
+footer{
+    @include vopo-blue;
+    .vopo-medias{
+        a{
+            margin: 2rem;
+            font-size: 2rem;
+            color: $white;
+            
+            :hover{
+                color: $voporeon-orange;
+            }
+        }
+    }
+}

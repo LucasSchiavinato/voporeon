@@ -1,6 +1,11 @@
 //Imports
 @use '../custom' as *;
 
-@mixin mix-faixa{
-    background-color: rgba($voporeon-orange, 0.);
+//faixa
+@mixin vopo-faixa{
+    background-color: rgba($voporeon-orange, 0.4);
+}
+//Health
+@mixin vopo-blue{
+    background-color: $voporeon-dark-blue;
 }
