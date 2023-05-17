@@ -10732,13 +10732,6 @@ textarea.form-control-lg {
   background-color: rgba(230, 107, 70, 0.4);
 }
 
-.vopo-faixa {
-  background-color: rgba(230, 107, 70, 0.4);
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
-  margin-bottom: 4rem;
-}
-
 .voporeon-main {
   background-color: rgba(230, 107, 70, 0.4);
   padding: 1rem;
@@ -10747,7 +10740,7 @@ textarea.form-control-lg {
   transform: translate(0%, 5%);
 }
 .voporeon-main .call-collum .btn {
-  transform: translate(100%, 0%);
+  transform: translate(50%, 0%);
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -10767,6 +10760,7 @@ textarea.form-control-lg {
 .voporeon-mental .vopo-card {
   background-color: #103150;
   padding: 1rem;
+  border: 1rem;
 }
 .voporeon-mental .vopo-card i {
   padding-top: 1rem;
@@ -10781,6 +10775,9 @@ textarea.form-control-lg {
 }
 .voporeon-whyus .vopo-title-why {
   transform: translate(0%, -95%);
+}
+.voporeon-whyus ol li {
+  padding: 1rem;
 }
 .voporeon-whyus .vopo-box {
   transform: translate(0%, -10%);
@@ -10808,6 +10805,26 @@ footer .vopo-medias a {
 }
 footer .vopo-medias a :hover {
   color: #e66b46;
+}
+footer .vopo-footer-copy a {
+  font-size: 1rem;
+  text-decoration: none;
+}
+footer .vopo-footer-copy a :hover {
+  color: #e66b46;
+}
+
+.voporeon-all-confirmacao .vopo-box-confirmacao {
+  background-color: rgba(16, 49, 80, 0.6);
+  border-radius: 50px;
+  height: 350px;
+  width: 550px;
+  color: #fff;
+  transform: translate(55%, 55%);
+}
+.voporeon-all-confirmacao .vopo-box-confirmacao .vopo-icon {
+  font-size: 2rem;
+  margin: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

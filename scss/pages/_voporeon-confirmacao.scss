@@ -1,2 +1,20 @@
 //Imports
 @use '../custom' as *;
+
+.voporeon-all-confirmacao{
+    .vopo-box-confirmacao{
+        background-color: rgba($voporeon-dark-blue, 0.6);
+        border-radius: 50px;
+        height: 350px;
+        width: 550px;
+        color: $white;
+        transform: translate(55%, 55%);
+
+        //icon
+        .vopo-icon{
+            font-size: 2rem;
+            margin: 1rem;;
+        }
+    }
+    
+}

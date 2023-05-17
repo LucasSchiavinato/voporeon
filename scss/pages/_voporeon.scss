@@ -16,17 +16,6 @@
     }
 
 }
-
-//header
-.vopo-faixa{
-    @include vopo-faixa;
-    //border
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    //dimensions
-    margin-bottom: 4rem;
-}
-
 //Main
 .voporeon-main{
     @include vopo-faixa;
@@ -35,10 +24,9 @@
     //left
     .call-collum{
         transform: translate(0%, 5%);
-
         //btn
         .btn{
-            transform: translate(100%, 0%);
+            transform: translate(50%, 0%);
             padding-left: 1rem;
             padding-right: 1rem;
         }
@@ -66,6 +54,7 @@
             padding-top: 1rem;
             font-size: 2rem;
         }
+        border: 1rem;
     }
 }
 
@@ -78,6 +67,11 @@
     //title
     .vopo-title-why{
         transform: translate(0%, -95%);
+    }
+    ol{
+        li{
+            padding: 1rem;
+        }
     }
 
     .vopo-box{
@@ -104,6 +98,16 @@ footer{
             margin: 2rem;
             font-size: 2rem;
             color: $white;
+            
+            :hover{
+                color: $voporeon-orange;
+            }
+        }
+    }
+    .vopo-footer-copy{
+        a{
+            font-size: 1rem;
+            text-decoration: none;
             
             :hover{
                 color: $voporeon-orange;
