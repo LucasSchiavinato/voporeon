@@ -2,6 +2,7 @@
 @use '../custom' as *;
 
 .voporeon-all-confirmacao{
+    height: 100%;
     .vopo-box-confirmacao{
         background-color: rgba($voporeon-dark-blue, 0.6);
         border-radius: 50px;
@@ -14,6 +15,9 @@
         .vopo-icon{
             font-size: 2rem;
             margin: 1rem;;
+        }
+        button{
+            transform: translate(0%, 50%);
         }
     }
     
