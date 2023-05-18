@@ -10722,6 +10722,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  overflow-x: hidden;
+}
+
 .voporeon-all .vopo-svg1 {
   background-color: rgba(230, 107, 70, 0.4);
 }
@@ -10867,5 +10871,11 @@ footer .vopo-footer-copy a :hover {
   .voporeon-all .voporeon-footer .vopo-medias .vopo-icon{
     transform: translate(0%, -50%);
   }
+  .voporeon-all-confirmacao .vopo-box-confirmacao{
+    height: 350px;
+    width: 430px;
+    transform: translate(6%, 45%);
+  }
 }
+
 /*# sourceMappingURL=style.css.map */

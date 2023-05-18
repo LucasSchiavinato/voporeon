@@ -2,6 +2,10 @@
 @use '../custom' as *;
 @use '../components/mixins' as *;
 
+body{
+    overflow-x: hidden;
+}
+
 //All
 .voporeon-all{
     //SVG
