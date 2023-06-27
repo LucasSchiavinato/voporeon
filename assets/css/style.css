@@ -10794,6 +10794,9 @@ body {
   padding: 2rem;
   transform: translate(20%, -70%);
 }
+.voporeon-whyus .vopo-box .box-call button {
+  transform: translate(55%, 10%);
+}
 
 .voporeon-faq {
   background-color: #103150;
@@ -10802,19 +10805,20 @@ body {
 footer {
   background-color: #103150;
 }
-footer .vopo-medias a {
+footer .vopo-medias .vopo-icon a {
   margin: 2rem;
   font-size: 2rem;
   color: #fff;
 }
-footer .vopo-medias a :hover {
+footer .vopo-medias .vopo-icon a:hover {
   color: #e66b46;
 }
 footer .vopo-footer-copy a {
   font-size: 1rem;
   text-decoration: none;
+  color: white;
 }
-footer .vopo-footer-copy a :hover {
+footer .vopo-footer-copy a:hover {
   color: #e66b46;
 }
 
@@ -10835,47 +10839,6 @@ footer .vopo-footer-copy a :hover {
 }
 .voporeon-all-confirmacao .vopo-box-confirmacao button {
   transform: translate(0%, 50%);
-}
-
-/* BREAKPOINTS */
-
-/*Mobile*/
-@media (max-width: 680px) {
-  .voporeon-all .voporeon-main .call-collum .vopo-main-btn{
-    transform: translate(30%, 0%);
-  }
-  .voporeon-all .voporeon-main .img-collum .vopo-img{
-    height: 250px;
-    width: 250px;
-  }
-  .voporeon-all .voporeon-mental .vopo-title1{
-    font-size: 1rem;
-  }
-  .voporeon-all .voporeon-whyus .vopo-title-why{
-    transform: translate(0%, 2%);
-  }
-  .voporeon-all .voporeon-whyus .vopo-box .box-call{
-      height: 250px;
-      width: 250;
-      transform: translate(0%, 25%);
-  }
-  .voporeon-all .voporeon-whyus .vopo-box .vopo-img{
-    transform: translate(0%, 90%);
-  }
-  .voporeon-all .voporeon-whyus .vopo-box .box-call .btn-why{
-      transform: translate(55%, -50%);
-  }
-  .voporeon-all .voporeon-faq .vopo-title2{
-    padding-bottom: 2rem;
-  }
-  .voporeon-all .voporeon-footer .vopo-medias .vopo-icon{
-    transform: translate(0%, -50%);
-  }
-  .voporeon-all-confirmacao .vopo-box-confirmacao{
-    height: 350px;
-    width: 430px;
-    transform: translate(6%, 45%);
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
